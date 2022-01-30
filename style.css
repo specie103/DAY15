@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #030303;
+  font-family: 'Crimson Text', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+}
+
+.frm-search {
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+input.city-search {
+  position: sticky;
+  margin: 0;
+  text-align: center;
+  outline: 0;
+  border: 1px solid #F7F7F7;
+  border-top: none;
+  width: 100%;
+  left: -10%;
+  top: 1px;
+  z-index: 2;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 35px;
+  border-color: rgba(50, 115, 220, 0.3);
+
+}
+
+.city-search::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.city-search:-ms-input-placeholder {
+  color: #999;
+}
+
+.city-search::-webkit-input-placeholder {
+  color: #999;
+
+}
+
+
+span.population {
+  font-size: 15px;
+}
+
+span.growth_from_2000_to_2013 {
+  font-size: 15px;
+  color: green;
+  border-right: 1px solid;
+}
+
+span.growth_from_2000_to_2013_red {
+  font-size: 15px;
+  color: red;
+}
+
+.highlight {
+  background: #12d40b;
+}
+
+
+table,
+tr,
+td {
+  margin: auto;
+  width: 75%;
+  border-collapse: collapse;
+  background: white;
+  list-style: none;
+  border: 1px solid #D4820B;
+  margin-top: 5px;
+  padding: 21px;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+tr,
+td,
+th {
+  border: 1px solid #D4820B;
+  width: 33.32%;
+}
+.haedd{
+  margin: auto;
+  width: 75%;
+  border-collapse: collapse;
+  text-align: center;
+  background: white;
+  margin-top: 5px;
+  padding: 21px;
+  justify-content: space-between;
+  text-transform: capitalize;
+
+}
